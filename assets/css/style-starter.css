@@ -9678,6 +9678,9 @@ h3.title {
 
 .w3l-call-to-action_9 .call-grids-w3 {
   display: grid;
+  align-items: center;
+  margin-left: 15%;
+  padding-left: 14%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 20px; }
 
@@ -11120,124 +11123,124 @@ p.stats-text {
   p.stats-text {
     font-size: 14px; } }
 
-.w3l-medpill-footer footer.footer-28 {
+.w3l-Lifeline-footer footer.footer-28 {
   background: #fff; }
 
-.w3l-medpill-footer h6.footer-title-28 {
+.w3l-Lifeline-footer h6.footer-title-28 {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 20px;
   font-weight: 700; }
 
-.w3l-medpill-footer .footer-list-28 ul li,
-.w3l-medpill-footer .midd-footer-28:nth-child(1) .footer-list-28 ul li:last-child {
+.w3l-Lifeline-footer .footer-list-28 ul li,
+.w3l-Lifeline-footer .midd-footer-28:nth-child(1) .footer-list-28 ul li:last-child {
   list-style: none;
   margin-bottom: 12px; }
 
-.w3l-medpill-footer .footer-list-28 ul li:last-child {
+.w3l-Lifeline-footer .footer-list-28 ul li:last-child {
   margin-bottom: 0px;
   border-bottom: none; }
 
-.w3l-medpill-footer .footer-list-28 ul li a,
-.w3l-medpill-footer .footer-list-28 ul li p {
+.w3l-Lifeline-footer .footer-list-28 ul li a,
+.w3l-Lifeline-footer .footer-list-28 ul li p {
   font-weight: normal;
   color: var(--para-color);
   font-size: 18px;
   line-height: 28px;
   font-weight: 600; }
 
-.w3l-medpill-footer ul.timing li {
+.w3l-Lifeline-footer ul.timing li {
   border-bottom: 1px solid #eee;
   padding-bottom: 12px; }
 
-.w3l-medpill-footer .footer-list-28 ul.address li a,
-.w3l-medpill-footer .footer-list-28 ul.timing li a,
-.w3l-medpill-footer .footer-list-28 ul.address li p span.fa {
+.w3l-Lifeline-footer .footer-list-28 ul.address li a,
+.w3l-Lifeline-footer .footer-list-28 ul.timing li a,
+.w3l-Lifeline-footer .footer-list-28 ul.address li p span.fa {
   color: #17449e;
   font-weight: 600; }
 
-.w3l-medpill-footer ul.timing li a {
+.w3l-Lifeline-footer ul.timing li a {
   display: grid;
   grid-template-columns: 15px 1fr auto;
   justify-content: stretch;
   grid-gap: 10px;
   align-items: center; }
 
-.w3l-medpill-footer .footer-list-28 ul li a:hover {
+.w3l-Lifeline-footer .footer-list-28 ul li a:hover {
   color: var(--heading-color); }
 
-.w3l-medpill-footer .main-social-footer-28 a {
+.w3l-Lifeline-footer .main-social-footer-28 a {
   margin-right: 25px; }
 
-.w3l-medpill-footer .main-social-footer-28 a:last-child {
+.w3l-Lifeline-footer .main-social-footer-28 a:last-child {
   margin-right: 0; }
 
-.w3l-medpill-footer .copy-footer-28 {
+.w3l-Lifeline-footer .copy-footer-28 {
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
   color: var(--para-color);
   margin-bottom: 0; }
 
-.w3l-medpill-footer .copy-footer-28 a {
+.w3l-Lifeline-footer .copy-footer-28 a {
   color: #666; }
 
-.w3l-medpill-footer .copy-footer-28 a:hover {
+.w3l-Lifeline-footer .copy-footer-28 a:hover {
   text-decoration: underline;
   opacity: 1; }
 
-.w3l-medpill-footer ul.list-btm-28 {
+.w3l-Lifeline-footer ul.list-btm-28 {
   margin: 25px 0 15px; }
 
-.w3l-medpill-footer .list-btm-28 li {
+.w3l-Lifeline-footer .list-btm-28 li {
   list-style-type: none;
   display: inline-block; }
 
-.w3l-medpill-footer ul.list-btm-28 li:nth-child(2) {
+.w3l-Lifeline-footer ul.list-btm-28 li:nth-child(2) {
   margin: 0 25px; }
 
-.w3l-medpill-footer .list-btm-28 li a {
+.w3l-Lifeline-footer .list-btm-28 li a {
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
   color: var(--text-color); }
 
-.w3l-medpill-footer ul.social-icons {
+.w3l-Lifeline-footer ul.social-icons {
   margin-top: 3px;
   padding: 0;
   list-style: none;
   overflow: hidden; }
 
-.w3l-medpill-footer ul.social-icons li a {
+.w3l-Lifeline-footer ul.social-icons li a {
   display: block;
   text-decoration: none; }
 
-.w3l-medpill-footer ul.social-icons li {
+.w3l-Lifeline-footer ul.social-icons li {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 0; }
 
-.w3l-medpill-footer ul.social-icons li a span {
+.w3l-Lifeline-footer ul.social-icons li a span {
   font-size: 20px;
   color: var(--text-color); }
 
-.w3l-medpill-footer ul.social-icons li.facebook span:hover {
+.w3l-Lifeline-footer ul.social-icons li.facebook span:hover {
   color: #3a5998;
   transition: 0.3s ease-in; }
 
-.w3l-medpill-footer ul.social-icons li.twitter span:hover {
+.w3l-Lifeline-footer ul.social-icons li.twitter span:hover {
   color: #55acee;
   transition: 0.3s ease-in; }
 
-.w3l-medpill-footer ul.social-icons li.dribbble span:hover {
+.w3l-Lifeline-footer ul.social-icons li.dribbble span:hover {
   color: #ea4c89;
   transition: 0.3s ease-in; }
 
-.w3l-medpill-footer ul.social-icons li.google span:hover {
+.w3l-Lifeline-footer ul.social-icons li.google span:hover {
   color: #dc4e41;
   transition: 0.3s ease-in; }
 
-.w3l-medpill-footer #movetop {
+.w3l-Lifeline-footer #movetop {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -11256,62 +11259,62 @@ p.stats-text {
   border-radius: 4px;
   transition: 0.3s ease-out; }
 
-.w3l-medpill-footer #movetop:hover {
+.w3l-Lifeline-footer #movetop:hover {
   background: var(--text-hover-color);
   transform: translate3d(0, -5px, 0);
   -webkit-transform: translate3d(0, -5px, 0);
   transition: 0.3s ease-out; }
 
-.w3l-medpill-footer .midd-footer-28 {
+.w3l-Lifeline-footer .midd-footer-28 {
   background: #f8f9fa; }
 
 @media (max-width: 1080px) {
-  .w3l-medpill-footer .footer-list-28 ul.address li a,
-  .w3l-medpill-footer .footer-list-28 ul.timing li a,
-  .w3l-medpill-footer .footer-list-28 ul.address li p span.fa {
+  .w3l-Lifeline-footer .footer-list-28 ul.address li a,
+  .w3l-Lifeline-footer .footer-list-28 ul.timing li a,
+  .w3l-Lifeline-footer .footer-list-28 ul.address li p span.fa {
     font-size: 16px; }
-  .w3l-medpill-footer h6.footer-title-28 {
+  .w3l-Lifeline-footer h6.footer-title-28 {
     font-size: 20px; } }
 
 @media (max-width: 992px) {
-  .w3l-medpill-footer .footer-list-28 ul.address li a,
-  .w3l-medpill-footer .footer-list-28 ul.timing li a,
-  .w3l-medpill-footer .footer-list-28 ul.address li p span.fa {
+  .w3l-Lifeline-footer .footer-list-28 ul.address li a,
+  .w3l-Lifeline-footer .footer-list-28 ul.timing li a,
+  .w3l-Lifeline-footer .footer-list-28 ul.address li p span.fa {
     font-size: 17px; } }
 
 @media (max-width: 768px) {
-  .w3l-medpill-footer h6.footer-title-28 {
+  .w3l-Lifeline-footer h6.footer-title-28 {
     font-size: 20px; } }
 
 @media (max-width: 736px) {
-  .w3l-medpill-footer .grid-col-4 {
+  .w3l-Lifeline-footer .grid-col-4 {
     grid-template-columns: 1fr 1fr; }
-  .w3l-medpill-footer .footer-list-28 ul li a,
-  .w3l-medpill-footer .footer-list-28 ul li p {
+  .w3l-Lifeline-footer .footer-list-28 ul li a,
+  .w3l-Lifeline-footer .footer-list-28 ul li p {
     font-size: 16px; } }
 
 @media (max-width: 600px) {
-  .w3l-medpill-footer .footer-top-28 {
+  .w3l-Lifeline-footer .footer-top-28 {
     grid-gap: 20px; } }
 
 @media (max-width: 550px) {
-  .w3l-medpill-footer ul.social-icons li {
+  .w3l-Lifeline-footer ul.social-icons li {
     margin: 0 5px; } }
 
 @media (max-width: 480px) {
-  .w3l-medpill-footer .footer-top-28 {
+  .w3l-Lifeline-footer .footer-top-28 {
     grid-gap: 40px;
     grid-template-columns: 1fr 1fr; }
-  .w3l-medpill-footer ul.list-btm-28 li:nth-child(2) {
+  .w3l-Lifeline-footer ul.list-btm-28 li:nth-child(2) {
     margin: 0 18px; }
-  .w3l-medpill-footer ul.social-icons {
+  .w3l-Lifeline-footer ul.social-icons {
     margin-top: 0;
     margin-bottom: 10px; }
-  .w3l-medpill-footer .copy-footer-28 {
+  .w3l-Lifeline-footer .copy-footer-28 {
     font-size: 17px; } }
 
 @media (max-width: 415px) {
-  .w3l-medpill-footer .copy-footer-28 {
+  .w3l-Lifeline-footer .copy-footer-28 {
     font-size: 16px; } }
 
 .w3l-about-breadcrumb .breadcrumb-bg-about {

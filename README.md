@@ -1,8 +1,8 @@
 # Lifeline
 This repository contains the Future Ready Talent internship projects and codes related to the Hospital website.
 
-Github link: https://aniketandhale08.github.io/Lifeline/
-Azure link: https://frtprojectstorageaccount.z19.web.core.windows.net/
+- **Github link:** https://aniketandhale08.github.io/Lifeline/
+- **Azure link:** https://frtprojectstorageaccount.z19.web.core.windows.net/
 # Lifeline Hospital Website
 
 Welcome to the Lifeline Hospital website repository! This project is a part of the Future Ready Talent internship, showcasing the development of a modern hospital website with innovative features.

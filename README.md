@@ -6,6 +6,7 @@ This repository contains the Future Ready Talent internship projects and codes r
 Welcome to the Lifeline Hospital website repository! This project is a part of the Future Ready Talent internship, showcasing the development of a modern hospital website with innovative features.
 
 ## Project Overview
+![Screenshot (886)](https://github.com/aniketandhale08/Lifeline/assets/99685171/2079ddcf-96ff-4f3e-9a16-ba0d6b84a55f)
 
 Lifeline Hospital Website is a comprehensive web platform designed to serve as an efficient and user-friendly interface for a hospital. The website includes essential tabs such as Home, Services, Contact, About, and a dedicated Bot to assist users with various inquiries related to the hospital and its services.
 

@@ -35,7 +35,7 @@ Lifeline Hospital Website is a comprehensive web platform designed to serve as a
 ![Azure bot](https://github.com/aniketandhale08/Lifeline/assets/99685171/e4b567c6-af1c-4fe6-9947-15d954a032c2)
 ![Bot Chat](https://github.com/aniketandhale08/Lifeline/assets/99685171/78929ddf-f035-41b4-8da4-f94c28f8c7c8)
 
-The website is hosted on Azure Cloud, ensuring reliability and scalability. Feel free to explore the website at [https://aniketandhale08.github.io/Lifeline/](https://frtprojectstorageaccount.z19.web.core.windows.net/).
+The website is hosted on Azure Cloud, ensuring reliability and scalability. Feel free to explore the website at https://frtprojectstorageaccount.z19.web.core.windows.net/
 
 ## How to Use
 

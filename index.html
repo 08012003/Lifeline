@@ -359,29 +359,49 @@
 				<div class="apply-gd-right offset-lg-1 col-lg-6 mt-lg-0 mt-5">
 					<div class="apply-form p-sm-5 p-4">
 						<h5>Fill the form for appointment</h5>
-						<form action="#" method="post">
-							<div class="admission-form">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Full Name*" required="">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Phone Number*" required="">
-								</div>
-								<div class="form-group">
-									<input type="email" class="form-control" placeholder="Email*" required="">
-								</div>
-								<select class="form-control">
-									<option>Select Disease</option>
-									<option>Lung disease</option>
-									<option>Others</option>
-								</select>
-							</div>
-							<div class="form-group">
-								<textarea name="Comment" class="form-control" placeholder="Message*" required=""></textarea>
-							</div>
-							<button type="submit" class="btn btn-primary submit">Submit Now</button>
-						</form>
-					</div>
+						
+            <form id="myForm">
+              <div class="admission-form">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Full Name*" required>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Phone Number*" required>
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email*" required>
+                  </div>
+                  <select class="form-control" required>
+                      <option value="" disabled selected>Select Disease</option>
+                      <option value="Lung disease">Lung disease</option>
+                      <option value="Others">Others</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                  <textarea name="Comment" class="form-control" placeholder="Message*" required></textarea>
+              </div>
+              <button type="button" class="btn btn-primary submit" onclick="submitForm()">Submit Now</button>
+          </form>
+
+         <div id="successMessage" style="display:none; color: green; margin-top: 10px;">
+    The query has been submitted successfully.
+</div>
+
+<script>
+    function submitForm() {
+        // Basic form validation
+        var form = document.getElementById('myForm');
+        if (form.checkValidity()) {
+            // Form is valid, show the success message
+            document.getElementById('successMessage').style.display = 'block';
+            // Optionally, you can also reset the form after submission
+            form.reset();
+        } else {
+            // Form is invalid, highlight the required fields
+            form.reportValidity();
+        }
+    }
+</script>
 				</div>
 			</div>
 		</div>

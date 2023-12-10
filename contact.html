@@ -137,16 +137,19 @@
     <h3 class="title mb-4">Drop Us a Message</h3>
     <div class="row">
       <div class="col-md-8 contact-form">
-        <form action="https://sendmail.w3layouts.com/submitForm" method="post">
-          <input type="text" class="form-control" name="w3lName" placeholder="Name" /><br />
-          <input type="email" class="form-control" name="w3lSender" placeholder="E-mail" /><br />
-          <input type="text" class="form-control" name="w3lSubject" placeholder="Subject" /><br />
-          <textarea class="form-control" name="w3lMessage" placeholder="Your Message"
-            style="height:150px;"></textarea><br />
+        <form id="contactForm">
+          <input type="text" class="form-control" name="w3lName" placeholder="Name" required /><br />
+          <input type="email" class="form-control" name="w3lSender" placeholder="E-mail" required /><br />
+          <input type="text" class="form-control" name="w3lSubject" placeholder="Subject" required /><br />
+          <textarea class="form-control" name="w3lMessage" placeholder="Your Message" style="height:150px;" required></textarea><br />
           <div class="">
-            <button class="btn btn-primary btn-style" type="submit">Submit now</button>
+            <button class="btn btn-primary btn-style" type="button" onclick="submitForm()">Submit now</button>
           </div>
         </form>
+
+        <div id="successMessage" style="display:none; color: green; margin-top: 10px;">
+            The query has been submitted successfully.
+        </div>
       </div>
       <div class="col-md-4 mt-md-0 mt-5 w3-contact-address">
         <b>Address:</b>
@@ -166,6 +169,25 @@
     </div>
   </div>
 </section>
+
+<!--  javascript code to display the message when user click on this-->
+<script>
+  function submitForm() {
+      var form = document.getElementById('contactForm');
+
+      // Basic form validation
+      if (form.checkValidity()) {
+          // Form is valid, show the success message
+          document.getElementById('successMessage').style.display = 'block';
+          // Optionally, you can also reset the form after submission
+          form.reset();
+      } else {
+          // Form is invalid, highlight the required fields
+          form.reportValidity();
+      }
+  }
+</script>
+
 <!-- //Contact section -->
 
 <!-- map -->
